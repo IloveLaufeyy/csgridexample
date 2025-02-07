@@ -1,0 +1,21 @@
+
+th{
+    height: 3rem;
+    width: 3rem;
+    font-size: 50px;
+}
+
+td{
+    height: 7rem;
+    width: 7rem;
+}
+
+.blue{
+    background-color: teal;
+}
+.black{
+    background-color: black;
+}
+#red{
+    background-color: red;
+}

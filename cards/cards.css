@@ -1,0 +1,38 @@
+body{
+    background-color: teal;
+}
+.card{
+    width: 10%;
+    height: 10%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 black;
+    transition: .3s;
+}
+.card:hover, .roundcard:hover{
+    box-shadow: 0 16px 32px 0 black;
+}
+.roundcard{
+    width: 10%;
+    height: 10%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 black;
+    transition: .3s;
+    border-radius: 10px;
+}
+.productcard{
+    width: 30%;
+    height: 30%;
+    background-color: lightblue;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 black;
+    transition: .3s;
+    border-radius: 10px;
+}
+.productcard:hover{
+    transform: scale(1.5);
+    transition: .25s ease-in;
+    box-shadow: 0 16px 32px 0 black;
+}
